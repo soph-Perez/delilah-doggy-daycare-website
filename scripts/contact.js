@@ -7,7 +7,7 @@ const contactPage = document.getElementById("contact-page");
 
 function makeThankYouMessage(){
   const message = document.createElement("p");
-  message.textContent = "Thank you for your message"
+  message.textContent = "Thank you for your message";
   message.style.fontSize = "24px";
   message.style.textAlign = "center";
   return message;

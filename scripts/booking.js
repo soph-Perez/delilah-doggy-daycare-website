@@ -55,15 +55,15 @@ function clearDays(){
   updateCost();
 }
 
-clearButton.addEventListener("click", clearDays)
+clearButton.addEventListener("click", clearDays);
 
 /********* change rate *********/
 // when the half-day button is clicked, set the daily rate to $20, add the "clicked" class to the "half" element, remove it from the "full" element, and recalculate the total cost.
 
 function halfDaySelected() {
   dailyRate = 20;
-  fullButton.classList.remove("clicked")
-  halfButton.classList.add("clicked")
+  fullButton.classList.remove("clicked");
+  halfButton.classList.add("clicked");
   updateCost();
 }
 
@@ -71,8 +71,8 @@ function halfDaySelected() {
 
 function fullDaySelected() {
   dailyRate = 35;
-  halfButton.classList.remove("clicked")
-  fullButton.classList.add("clicked")
+  halfButton.classList.remove("clicked");
+  fullButton.classList.add("clicked");
   updateCost();
 }
 
